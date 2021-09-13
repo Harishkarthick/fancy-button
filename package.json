@@ -1,5 +1,5 @@
 {
-  "name": "@harishkarthick/button-fancy",
+  "name": "button-fancy",
   "version": "1.0.0",
   "description": "a fancy button in react",
   "main": "src/ndex.js",
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "https://github.com/Harishkarthick/fancy-button.git"
   },
-  "author": "Harish",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/@harishkarthick"
+  },
+  "author": "harish karthick",
   "license": "MIT",
   "devDependencies": {
     "react": "^17.0.2",
